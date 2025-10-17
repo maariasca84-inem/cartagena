@@ -1,0 +1,119 @@
+/* ===========================
+   ESTILOS GENERALES
+   =========================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefaf6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center;
+    background-color: #007d8c;
+    color: #fff;
+    padding: 25px 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Subtítulos */
+h2 {
+    color: #006b76;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+    border-bottom: 3px solid #00a19a;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #009da0;
+    margin-top: 30px;
+    font-size: 1.4em;
+}
+
+/* Texto general */
+p, li {
+    font-size: 1.1em;
+    margin: 15px auto;
+    width: 85%;
+    text-align: justify;
+}
+
+/* Listas */
+ul {
+    list-style-type: "🌺 ";
+    margin-left: 10%;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.03);
+}
+
+/* ===========================
+   PIE DE PÁGINA
+   =========================== */
+footer {
+    background-color: #007d8c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+}
+
+/* ===========================
+   EFECTOS EXTRA
+   =========================== */
+h2::first-letter {
+    color: #ffaa00;
+}
+
+a {
+    color: #007d8c;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #ffaa00;
+}
+
+/* ===========================
+   RESPONSIVE (Celulares y tablets)
+   =========================== */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p, li {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    img {
+        width: 95%;
+        height: auto;
+    }
+}
